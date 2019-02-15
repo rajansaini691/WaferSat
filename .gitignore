@@ -1,0 +1,5 @@
+build/
+.dep/
+os/
+community/
+os-community/
