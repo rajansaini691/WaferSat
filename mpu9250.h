@@ -1,7 +1,6 @@
 /*
  * mpu9250.h
- * Library for Lite-On LTR-329ALS-01 ambient light sensor
- *
+ * Library for MPU9250 accelerometers
  *  Created on: Nov 8, 2018
  *      Author: Peter Krogen
  */

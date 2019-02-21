@@ -25,7 +25,8 @@ int16_t mpu9250_get_x(void){
         return 0;
     }
   val2 = (int16_t)val*1000/16384;
-  return val2;}
+  return val2;
+}
 
 int16_t mpu9250_get_y(void){
   uint16_t val;

@@ -35,4 +35,4 @@ void tmp100_init(uint8_t id){
   I2C_write8(TMP100_ADDR | (id & 0x07), TMP100_CONTR_REG, TMP100_CONSECUTIVE_FAULTS_6  | TMP100_RESOLUTION_12_BIT );
 }
 
-
+// void tmp_shutdown? (shutdown mode allows the temperature sensor to turn off all circuitry besides the serial interface. May be useful when we need to conserve power?)
